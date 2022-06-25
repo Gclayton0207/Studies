@@ -1,10 +1,10 @@
 import React from 'react'
-import './style.scss';
+import style from './Botao.module.scss';
 
 const index = () => {
   return (
     <div>
-      <button className="botao">Botão</button>
+      <button className={style.botao}>Botão</button>
     </div>
   )
 }
